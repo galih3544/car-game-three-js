@@ -1,0 +1,36 @@
+#myGame {
+    position: relative;
+    z-index: 1;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+#gameOver {
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 110, 110);
+}
+
+#textGameOver {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
